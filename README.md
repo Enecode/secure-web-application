@@ -35,3 +35,7 @@ run the project
 ```bash
 python manage.py runserver
 ```
+
+## Author
+
+Isah Jacob
