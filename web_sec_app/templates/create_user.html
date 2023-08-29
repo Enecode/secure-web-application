@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create Account</title>
+    {% load static %}
+    
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-md-offset-4 form-login">
+                <h4>Create Account</h4>
+                <form action="{% url 'create_user' %}" method="post">
+                    {% csrf_token %}
+                    <input 
+                        type="text" 
+                        id="userName" 
+                        name="username"
+                        class="form-control input-sm chat-input" 
+                        placeholder="username" 
+                    />
+                    <br>
+                </form>
+                    <input 
+                        type="password" 
+                        id="userPassword" 
+                        name="password" 
+                        class="form-control input-sm chat-input" 
+                        placeholder="password" 
+                    />
+                    <br>
+                    <div class="wrapper">
+                        <span class="group-btn">     
+                            <input type="submit" name="submit" class="btn btn-primary btn-md" value="Create Account" />
+                        </span>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

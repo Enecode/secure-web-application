@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>File Upload</title>
+    {% load static %}
+</head>
+<body>
+    <h1>File Upload</h1>
+    <form action="{% url 'upload' %}" method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <input type="file" name="fileToUpload" id="fileToUpload">
+        <br>
+        <input type="submit" value="Upload File" name="submit">
+    </form>
+</html>

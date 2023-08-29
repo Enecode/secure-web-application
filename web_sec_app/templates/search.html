@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Search</title>
+    {% load static %}
+</html>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-md-offset-4 form-login">
+                <h4>Search</h4>
+                <form action="{% url 'search' %}" method="post">
+                    {% csrf_token %}
+                    <input type="text" name="search" placeholder="Search" required>
+                    <button type="submit">Search</button>
+                </form>                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
