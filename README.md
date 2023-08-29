@@ -14,24 +14,24 @@ With the right security measures in place, you can confidently provide your user
 
 clone the project
 
-```python
-git clone
+```bash
+git clone https://github.com/Enecode/secure-web-application.git
 ```
 
 create a virtual environment
 
-```python
+```bash
 python3 -m venv env
 ```
 
 activate the virtual environment
 
-```python
+```bash
 source env/bin/activate
 ```
 
 run the project
 
-```python
+```bash
 python manage.py runserver
 ```
