@@ -9,6 +9,10 @@ By implementing password hashing, secure session management, authentication, aut
 But web security is a vast and ever-evolving field, and it's crucial to stay updated with the latest security trends and practices to ensure your web application remains safe from potential threats. Always perform thorough security testing and regularly update your application and libraries to maintain a strong defense against potential attacks.
 
 With the right security measures in place, you can confidently provide your users with a safe and secure web experience.
+## Link to the article
+```bash
+https://www.freecodecamp.org/news/how-to-build-a-secure-django-web-app/
+```
 
 ## How to Run the Project
 
