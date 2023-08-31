@@ -10,9 +10,8 @@ But web security is a vast and ever-evolving field, and it's crucial to stay upd
 
 With the right security measures in place, you can confidently provide your users with a safe and secure web experience.
 ## Link to the article
-```bash
-https://www.freecodecamp.org/news/how-to-build-a-secure-django-web-app/
-```
+<a>https://www.freecodecamp.org/news/how-to-build-a-secure-django-web-app/</a>
+
 
 ## How to Run the Project
 
